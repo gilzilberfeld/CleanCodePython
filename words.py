@@ -1,4 +1,6 @@
 words = ['dog', 'cat', 'horse', 'goat', 'cat', 'horse', 'fish', 'dog', 'dog', 'fish']
+
+
 def find():
     freq = []
     uwrd = []
@@ -25,5 +27,7 @@ def find():
     for un_word in uwrd:
         print(un_word + ' ' + str(freq[i]))
         i = i + 1
+
+
 if __name__ == '__main__':
     find()
